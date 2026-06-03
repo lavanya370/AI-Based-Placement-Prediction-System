@@ -9,6 +9,7 @@ Predict student placement probability using ML.
 Analyze academic and skill-related factors.
 Provide career guidance recommendations.
 Help students identify skill gaps.
+
 4.Software Requirements
 Component
 Requirement
