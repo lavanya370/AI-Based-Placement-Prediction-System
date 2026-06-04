@@ -10,7 +10,7 @@ Analyze academic and skill-related factors.
 Provide career guidance recommendations.
 Help students identify skill gaps.
 
-4.Software Requirements
+ 4.Software Requirements
 Component
 Requirement
 Operating System
@@ -35,7 +35,8 @@ Secondary Objectives
 Maintain student records.
 Generate placement analytics.
 Improve placement preparation.
-5.Module list
+
+ 5.Module list
 =>User Authentication Module
 =>Student Data Management Module
 =>Data Preprocessing Module
