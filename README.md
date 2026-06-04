@@ -37,11 +37,18 @@ Generate placement analytics.
 Improve placement preparation.
 
  5.Module list
-=>User Authentication Module
-=>Student Data Management Module
-=>Data Preprocessing Module
-=>Machine Learning Training Module
-=>Placement Prediction Module
-=>Result Visualization Module
-=>Admin Management Module
+
+   =>User Authentication Module
+
+   =>Student Data Management Module
+
+   =>Data Preprocessing Module
+
+   =>Machine Learning Training Module
+
+   =>Placement Prediction Module
+
+   =>Result Visualization Module
+
+   =>Admin Management Module
 
