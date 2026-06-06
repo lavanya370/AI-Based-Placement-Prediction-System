@@ -85,3 +85,16 @@ Improve placement preparation.
                     | Predict Placement|
                     +------------------+
 
+
+
+
+  5.TABLE LIST:
+      1. Student Table
+      
+      2. Academic Details Table
+      
+      3. Skills Table
+      
+      4. Prediction Table
+       
+      5. Admin Table
