@@ -38,6 +38,8 @@ Dashboard Module
 Statistics
 Placement Analytics
 Charts and Reports
+
+
 5. Use Case Diagram
 Actors
 Admin
@@ -56,12 +58,17 @@ Manage Students
 Manage Data
 View Reports
 View Analytics
-Simple Use Case Structure:
+Simple Use Case Structure
+
+
+
 
 Admin ----> Login
       ----> Manage Students
       ----> View Reports
       ----> View Analytics
+
+
 
 Student --> Register
         --> Login
@@ -69,6 +76,9 @@ Student --> Register
         --> Enter Skills
         --> View Prediction
         --> View Recommendations
+
+
+
 6. Table List
 Users
 Students
@@ -76,6 +86,9 @@ Skills
 Prediction
 Recommendations
 Admin
+
+
+
 7. ER Diagram
 
 ADMIN
@@ -88,44 +101,17 @@ PREDICTION
  |
  |
 RECOMMENDATION
+
+
 Relationship:
+
+
 One Student → Many Skills
 One Student → One Prediction
 One Student → Many Recommendations
-8. SQL Schema
-Student Table
-SQL
-CREATE TABLE students(
-student_id INT PRIMARY KEY AUTO_INCREMENT,
-name VARCHAR(100),
-email VARCHAR(100),
-department VARCHAR(50),
-cgpa DECIMAL(3,2),
-attendance DECIMAL(5,2),
-aptitude_score INT,
-technical_score INT,
-communication_score INT
-);
-Skills Table
-SQL
-CREATE TABLE skills(
-skill_id INT PRIMARY KEY AUTO_INCREMENT,
-student_id INT,
-skill_name VARCHAR(100),
-FOREIGN KEY(student_id)
-REFERENCES students(student_id)
-);
-Prediction Table
-SQL
-CREATE TABLE prediction(
-prediction_id INT PRIMARY KEY AUTO_INCREMENT,
-student_id INT,
-placement_probability DECIMAL(5,2),
-status VARCHAR(20),
-FOREIGN KEY(student_id)
-REFERENCES students(student_id)
-);
-9. Page Layouts
+,
+
+8. Page Layouts
 Home Page
 About Project
 Features
@@ -140,7 +126,11 @@ Admin Dashboard
 Student List
 Analytics
 Reports
-10. UI Screens
+
+
+
+9. UI Screens
+
 Screen 1
 Home Page
 Screen 2
@@ -155,22 +145,8 @@ Screen 6
 Admin Dashboard
 Screen 7
 Analytics Dashboard
-11. UI Prototype
-Navigation
 
-Home
- |
- +-- Login
- |
- +-- Register
- |
- +-- Dashboard
-       |
-       +-- Profile
-       +-- Skills
-       +-- Prediction
-       +-- Recommendation
-12. Technology Stack
+10. Technology Stack
 Frontend
 React JS
 HTML
@@ -186,7 +162,9 @@ Python
 Scikit-Learn
 Pandas
 NumPy
-13. ML Model
+
+
+11. ML Model
 Input Parameters
 CGPA
 Attendance
@@ -205,6 +183,8 @@ Reason:
 High accuracy
 Easy implementation
 Good for student datasets
+
+
 Frontend Pages Needed
 Home
 Login
