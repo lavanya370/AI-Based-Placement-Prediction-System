@@ -88,7 +88,7 @@ Improve placement preparation.
 
 
 
-  5.TABLE LIST:
+  7.TABLE LIST:
 
 
       1. Student Table
