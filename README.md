@@ -1,198 +1,128 @@
-AI-Based-Placement-Prediction-System
+# 🎓 AI Placement Prediction System
 
- 1. Approved Project Title
-AI-Based Placement Prediction and Career Guidance System Using Machine Learning
-2. Problem Statement
-Many students are unaware of their placement readiness and lack guidance regarding the skills required for securing jobs. Existing systems only store academic records and do not provide intelligent insights. This project aims to analyze student academic performance, technical skills, aptitude scores, and other factors to predict placement chances and provide personalized career guidance using Machine Learning.
-3. Project Objectives
-Primary Objectives
-Predict student placement probability using ML.
-Analyze academic and skill-related factors.
-Provide career guidance recommendations.
-Help students identify skill gaps.
-Secondary Objectives
-Maintain student records.
-Generate placement analytics.
-Improve placement preparation.
-4. Module List
-Admin Module
-Login
-Manage Students
-View Predictions
-Manage Skills
-Generate Reports
-Student Module
-Registration
-Login
-Profile Management
-Skill Entry
-View Prediction
-ML Prediction Module
-Data Processing
-Model Training
-Prediction Generation
-Recommendation Module
-Skill Suggestions
-Career Guidance
-Dashboard Module
-Statistics
-Placement Analytics
-Charts and Reports
+An AI-powered web application that predicts whether a student is likely to be placed based on academic performance and skill-related parameters. The system uses a Machine Learning model and provides instant placement predictions through a simple web interface.
 
+---
 
-5. Use Case Diagram
-Actors
-Admin
-Student
-Use Cases
-Student
-Register
-Login
-Update Profile
-Enter Skills
-View Placement Prediction
-View Recommendations
-Admin
-Login
-Manage Students
-Manage Data
-View Reports
-View Analytics
-Simple Use Case Structure
+## 📌 Features
 
+* Predicts placement chances using Machine Learning
+* User-friendly web interface built with Flask
+* Fast and accurate prediction
+* Easy to deploy and use
+* Suitable for educational demonstration and mini projects
 
+---
 
+## 🛠️ Technologies Used
 
-Admin ----> Login
-      ----> Manage Students
-      ----> View Reports
-      ----> View Analytics
+* Python
+* Flask
+* Scikit-learn
+* Joblib
+* HTML
+* CSS (Optional)
 
+---
 
+## 📂 Project Structure
 
-Student --> Register
-        --> Login
-        --> Update Profile
-        --> Enter Skills
-        --> View Prediction
-        --> View Recommendations
+```
+AI-Placement-Prediction-System/
+│
+├── app.py
+├── train_model.py
+├── placement_model.pkl
+├── placement_data.csv
+├── requirements.txt
+├── README.md
+└── screenshots/
+```
 
+---
 
+## 📊 Input Parameters
 
-6. Table List
-Users
-Students
-Skills
-Prediction
-Recommendations
-Admin
+The model predicts placement based on:
 
+* CGPA
+* Attendance
+* Aptitude Score
+* Technical Skill Score
+* Communication Skill Score
 
+---
 
-7. ER Diagram
+## 🚀 How to Run
 
-ADMIN
- |
- |
-STUDENT ----- SKILLS
- |
- |
-PREDICTION
- |
- |
-RECOMMENDATION
+### 1. Clone the repository
 
+```bash
+git clone https://github.com/yourusername/AI-Placement-Prediction-System.git
+```
 
-Relationship:
+### 2. Move into the project folder
 
+```bash
+cd AI-Placement-Prediction-System
+```
 
-One Student → Many Skills
-One Student → One Prediction
-One Student → Many Recommendations
-,
+### 3. Install the required packages
 
-8. Page Layouts
-Home Page
-About Project
-Features
-Login
-Register
-Student Dashboard
-Profile
-Skills
-Prediction
-Recommendations
-Admin Dashboard
-Student List
-Analytics
-Reports
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the application
+
+```bash
+python app.py
+```
+
+### 5. Open in your browser
+
+```
+http://127.0.0.1:5000
+```
+
+---
+
+## 🧠 Machine Learning Model
+
+The project uses a supervised Machine Learning classification model trained on placement-related data.
+
+The prediction is based on:
+
+* Academic Performance
+* Attendance
+* Aptitude Skills
+* Technical Skills
+* Communication Skills
+
+---
+
+## 📷 Application Preview
+
+Add screenshots of:
+
+* Home Page
+* Input Form
+* Prediction Result
+
+inside the **screenshots/** folder.
+
+---
+
+## 📈 Future Enhancements
+
+* User Login System
+* Database Integration
+* Student Dashboard
+* Placement Statistics
+* AI-based Career Recommendation
+* Resume Analysis
+* Interview Preparation Suggestions
+
+---
 
 
-
-9. UI Screens
-
-Screen 1
-Home Page
-Screen 2
-Login Page
-Screen 3
-Registration Page
-Screen 4
-Student Dashboard
-Screen 5
-Prediction Result Page
-Screen 6
-Admin Dashboard
-Screen 7
-Analytics Dashboard
-
-10. Technology Stack
-Frontend
-React JS
-HTML
-CSS
-Bootstrap
-Backend
-Spring Boot
-Java
-Database
-MySQL
-Machine Learning
-Python
-Scikit-Learn
-Pandas
-NumPy
-
-
-11. ML Model
-Input Parameters
-CGPA
-Attendance
-Aptitude Score
-Technical Skills Score
-Communication Skills Score
-Projects Completed
-Output
-
-Placement Probability = 85%
-
-Status = Likely to be Placed
-Algorithm
-Random Forest Classifier
-Reason:
-High accuracy
-Easy implementation
-Good for student datasets
-
-
-Frontend Pages Needed
-Home
-Login
-Registration
-Student Dashboard
-Profile Form
-Skill Entry Form
-Prediction Page
-Recommendation Page
-Admin Dashboard
-Student List
