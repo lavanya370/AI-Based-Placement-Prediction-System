@@ -1,3 +1,5 @@
+
+https://ai-based-placement-prediction-system.onrender.com
 # 🎓 AI Placement Prediction System
 
 An AI-powered web application that predicts whether a student is likely to be placed based on academic performance and skill-related parameters. The system uses a Machine Learning model and provides instant placement predictions through a simple web interface.
